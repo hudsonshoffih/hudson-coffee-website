@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Coffee Delight</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital@0;1&family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Open Sans', sans-serif;
+            background: #f5f5f5;
+            color: #333;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        header {
+            text-align: center;
+            padding: 50px 0;
+            background: #4a2c2a;
+            color: white;
+        }
+
+        header h1 {
+            font-family: 'Lora', serif;
+            font-size: 3em;
+            margin: 0;
+            animation: fadeInDown 1s ease-in-out;
+        }
+
+        header p {
+            font-size: 1.2em;
+            margin: 10px 0 0;
+        }
+
+        .about-section {
+            background: white;
+            padding: 50px 20px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            margin-top: -50px;
+            animation: fadeInUp 1s ease-in-out;
+        }
+
+        .about-section h2 {
+            font-family: 'Lora', serif;
+            font-size: 2.5em;
+            margin-bottom: 20px;
+            color: #4a2c2a;
+        }
+
+        .about-section p {
+            font-size: 1.1em;
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+
+        .team {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+
+        .team-member {
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+          
+            text-align: center;
+            transition: transform 0.3s;
+        }
+
+        .team-member img {
+            width: 100%;
+            height: auto;
+        }
+
+        .team-member h3 {
+            margin: 15px 0 5px;
+            font-size: 1.5em;
+            color: #4a2c2a;
+        }
+
+        .team-member p {
+            font-size: 1em;
+            margin: 0 0 15px;
+        }
+
+        .team-member:hover {
+            transform: scale(1.05);
+        }
+
+        @keyframes fadeInDown {
+            from {
+                opacity: 0;
+                transform: translateY(-20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>About Mocha Bliss</h1>
+        <p>Our Passion is Your Delight</p>
+    </header>
+
+    <div class="container">
+        <section class="about-section">
+            <h2>Our Story</h2>
+            <p>Welcome to Mocha Bliss, where every cup is brewed with passion and precision. Our journey began in 2010 with a small café in the heart of the city, fueled by our love for exceptional coffee and a commitment to sustainability. Over the years, we've grown into a beloved community hub, known for our meticulously sourced beans and innovative brewing techniques.</p>
+            <p>At Mocha Bliss, we believe that great coffee starts with great relationships. We work closely with farmers around the world to ensure fair trade practices and support sustainable farming. Our expert roasters bring out the unique flavors of each bean, creating blends that are both bold and balanced.</p>
+        </section>
+
+        <section class="about-section">
+            <h2>Meet the Team</h2>
+            <div class="team">
+                <div class="team-member">
+                    <img src="https://media.licdn.com/dms/image/D4E03AQH1jAod9QQD3Q/profile-displayphoto-shrink_200_200/0/1694887094569?e=2147483647&v=beta&t=9pD4Gpv94XOpEObyqFgRv6bE2JGyv90E7wECXJP2s2E" alt="Hudson">
+                    <h3>Hudson</h3>
+                    <p>Founder & Head Roaster</p>
+                </div>
+                
+            </div>
+        </section>
+    </div>
+</body>
+</html>
+

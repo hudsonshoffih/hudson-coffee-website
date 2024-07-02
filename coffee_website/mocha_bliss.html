@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author"  content="Hudson">
+    <meta name="description" content="coffee website">
+    <title>Mocha Bliss</title>
+
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #efefef;
+        }
+        header {
+            text-align: center;
+            padding: 50px 0;
+            background: #4a2c2a;
+            color: white;
+        }
+        nav {
+            text-align:left;
+            background-color: #7a4946;
+            padding: 0.5em;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 1em;
+        }
+        section {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            margin: 2em;
+        }
+        .coffee{
+            background-color: #fff;
+            border-radius: 5px;
+            padding: 1em;
+            margin: 1em;
+            text-align: center;
+            width: 45%;
+            transition: transform 0.3s ease-in-out;
+        }
+        .coffee:hover{
+            transform: scale(1.05);
+        }
+        .coffee img {
+            max-width: 100%;
+            border-radius: 5px;
+            margin-bottom: 0.5em;
+        }
+        footer {
+            background-color: #4a2c2a;
+            color: white;
+            padding: 1em;
+            text-align: center;
+            position:relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+
+
+    </style>      
+</head>
+
+<body>
+    <header>
+        <h1>Mocha Bliss</h1>
+    </header>
+
+    <nav>
+        <a href="http://127.0.0.1:5500/starbuck2.html">Home</a>
+        <a href="#">About Us</a>
+        <a href="#">Contact Us</a>
+        <a href="#">Help</a>
+    </nav>
+
+    <section>
+        <div class="coffee">
+            <a href ="americano.html" target="_blank"><button>
+            <img src="https://www.usa.philips.com/c-dam/b2c/master/experience/ho/philips-chef/recipe/drinks-and-ice-creams/classic-americano/classic-americano-main-thumb.jpg" alt="Americano">
+            <h2>Americano</h2>
+            <p>Strong black coffee</p>
+            <p>Price: $2.50</p>
+        </button></a>
+        </div>
+
+        <div class="coffee">
+            <a href ="latte.html" target="_blank"><button>
+            <img src="https://www.torani.com/sites/default/files/recipes/illustration/iced%20latte%20with%20swirl.jpg" alt="Latte">
+            <h2>Latte</h2>
+            <p>Espresso with steamed milk</p>
+            <p>Price: $3.00</p>
+        </button></a>
+        </div>
+
+        <div class="coffee">
+            <a href ="cappuccino.html" target="_blank"><button>
+            <img src="https://dairyfarmersofcanada.ca/sites/default/files/styles/recipe_image/public/image_file_browser/conso_recipe/2022/Capuccino.jpg.jpeg?itok=J1pWPwe2" alt="Cappuccino">
+            <h2>Cappuccino</h2>
+            <p>Espresso with equal parts of steamed milk and foam</p>
+            <p>Price: $3.50</p>
+        </button></a>
+        </div>
+
+        <div class="coffee">
+            <a href ="espresso.html" target="_blank"><button>
+            <img src="https://media.istockphoto.com/id/1126871354/photo/coffee-cup.jpg?s=612x612&w=0&k=20&c=Zi3WB3HzdfJId9MCDlcGQdc4_6D8JaJfNdA8tArogv4=" alt="Espresso">
+            <h2>Espresso</h2>
+            <p>Strong and concentrated black coffee</p>
+            <p>Price: $2.00</p>
+        </button></a>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Mocha Bliss</p>
+    </footer>
+</body>
+</html>
